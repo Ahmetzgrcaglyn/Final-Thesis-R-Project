@@ -10,6 +10,8 @@ library(rvest)
 library(stringr)
 library(tabulizer)
 
+# set turkish engine
+turkish <- tesseract("tur")
 
 
 # TASK-0: get all newspapers list ----
